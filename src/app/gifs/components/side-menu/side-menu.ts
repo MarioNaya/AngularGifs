@@ -1,0 +1,13 @@
+import { GifsSideMenuOptions } from './side-menu-options/side-menu-options';
+import { Component } from '@angular/core';
+import { GifsSideMenuHeader } from './side-menu-header/side-menu-header';
+
+@Component({
+  selector: 'side-menu',
+  imports: [
+    GifsSideMenuHeader,
+    GifsSideMenuOptions
+  ],
+  templateUrl: './side-menu.html',
+})
+export class SideMenu { }
